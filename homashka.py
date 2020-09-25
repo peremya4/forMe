@@ -1,5 +1,3 @@
-from pprint import pprint
-
 with open('files.csv', mode='r') as f1:
     lst = f1.read().split('\n') # все файлы
     types = {} #Количество файлов каждого типа
